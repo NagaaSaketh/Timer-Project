@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.btnbox{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+}
+.btnbox button{
+    margin:0 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#3AB0FF,#FF5B00);
+    width: 70%;
+    height: 80vh;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    border: 2px solid #A760FF;
+}
+.text{
+    font-family: 'Joan', serif;
+    color: #541690;
+    font-weight: 900;
+    font-style:italic;
+}
